@@ -1,5 +1,6 @@
 # Demo
 Notes took from YouTuve channel Apana Collage. Link here: "https://youtu.be/Ez8F0nW6S-w?si=bLC4poHgQO_9kXC9"
+Using git with VS code: Article with good information. Link here: "https://www.gitkraken.com/blog/vs-code-git#prerequisites-to-using-git-in-vs-code"
 
 <h2>Topic 01: Conventions: </h2>
 Repository meaning folder.
