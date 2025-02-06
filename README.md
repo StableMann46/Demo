@@ -50,3 +50,6 @@ To do that we use push command.
 push: uplaod local repo content to remote repo
 Command: git push origin main
 
+Video paused at 39:58
+
+
