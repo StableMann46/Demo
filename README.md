@@ -20,4 +20,8 @@ To see the chnages we just did.
 git config -- global --list
 
 Topic 03: Clone and Status <br>
+Clone is uded for cloning a repo on our local machine
+Command: git clone <- some link ->
 
+Status: displays the state of the code.
+command: git status
