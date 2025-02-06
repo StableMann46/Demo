@@ -34,3 +34,19 @@ HTTPS is recommended for cloning repos as it is beginner-friendly. You can also 
 
 Status: displays the state of the code. <br>
 command: git status
+File ko vs me modified karne ke badd hamara 2 step process hota he. one is add and other is commit.
+Jab tak hum ye nahi karte tab tak vs code hame M as modified files dikhayega
+
+<h2> Topic 04: Add and Commit </h2>
+add: adds new or changed files in your working directory to the Git staging area.
+Command: git add <- file name ->
+
+commit: it is the record of change.
+Command: git commit -m "some message"
+Here -m is for message.
+
+Your branch is ahead of 'origin/main' by 1 commit. Means the new files will notbe visible to Github.
+To do that we use push command.
+push: uplaod local repo content to remote repo
+Command: git push origin main
+
