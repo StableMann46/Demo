@@ -1,5 +1,5 @@
 # Demo
-Notes took from you tube channel Apana Collage. Link = "https://youtu.be/Ez8F0nW6S-w?si=bLC4poHgQO_9kXC9"
+Notes took from YouTuve channel Apana Collage. Link here: "https://youtu.be/Ez8F0nW6S-w?si=bLC4poHgQO_9kXC9"
 
 Topic 01: Conventions: <br>
 Repository meaning folder.
