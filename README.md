@@ -22,6 +22,6 @@ git config -- global --list
 <h2> Topic 03: Clone and Status </h2>
 Clone is used for cloning a repo on our local machine <br>
 Command: git clone <- some link ->
-
+HTTPS is recommanded for cloning repos as it is begginer-friendly. You can also use SSH.
 Status: displays the state of the code. <br>
 command: git status
