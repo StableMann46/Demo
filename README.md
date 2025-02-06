@@ -1,5 +1,5 @@
 # Demo
-Notes took from YouTuve channel Apana Collage. Link here: "https://youtu.be/Ez8F0nW6S-w?si=bLC4poHgQO_9kXC9"
+Notes were taken from the YouTube channel Apana Collage. Link here: "https://youtu.be/Ez8F0nW6S-w?si=bLC4poHgQO_9kXC9"
 Using git with VS code: Article with good information. Link here: "https://www.gitkraken.com/blog/vs-code-git#prerequisites-to-using-git-in-vs-code"
 
 <h2>Topic 01: Conventions: </h2>
@@ -11,7 +11,7 @@ cd means change directory
 mkdir make new directory
 ls list all files in pwd
 ls -a to see all hidden files
-In VS code we have 4 types of status changes. M = Modified (changed) U = Untracked (Means we created a file that Git does not know yet) Staged = file is ready to committed. And last is Unmodified = Means unchanged.
+In VS code we have 4 types of status changes. M = Modified (changed) U = Untracked (Means we created a file that Git does not know yet) Staged = file is ready to commit. And last is Unmodified = Means unchanged.
 git add . makes add for all the files in repo.
 
 <h2> Topic 02: Configuring Git </h2>
@@ -30,7 +30,7 @@ git config -- global --list
 <h2> Topic 03: Clone and Status </h2>
 Clone is used for cloning a repo on our local machine <br>
 Command: git clone <- some link ->
-HTTPS is recommanded for cloning repos as it is begginer-friendly. You can also use SSH.
+HTTPS is recommended for cloning repos as it is beginner-friendly. You can also use SSH.
 
 Status: displays the state of the code. <br>
 command: git status
