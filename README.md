@@ -136,4 +136,5 @@ Case 3: commited changes for (multiple commits)
 * `git reset --hard hash` vs code aur git dono mese change hat jayega.
 
 
-# Another topic: Fork -- is a rough copy of our project. And then pull request. Do all the changes in our github account and then merge it with actual project code.
+# Another topic: Fork 
+* Fork is a rough copy of our project. And then pull request. Do all the changes in our github account and then merge it with actual project code.
