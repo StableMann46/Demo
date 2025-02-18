@@ -70,6 +70,7 @@ Start it with git init
   git branch
   git branch -M main
   git push origin main
+  ```
 * Git repo or not -- If there is no hidden folder named git -- after doing ls -a
 * we do git init
 * now do ls -a. This is git repo now
@@ -90,10 +91,10 @@ Start it with git init
 *  jab bhi hum naya project banaye git hub pe banaye fir local me clone kare voh aasan rehta he.
 
 
-Workflow --> when working with local git
+# Workflow --> when working with local git
 Github repo --> Clone --> Changes --. Add --> Commit --> Push 
 
-Git Branches
+# Git Branches
 Ek product me naye features dalne he to tab ye kam aata he
 One person is working on one feature and another on another feature. When other developers conmplete developing the feature. We finally merge all the changes.
 **branch Commands**
@@ -104,4 +105,35 @@ One person is working on one feature and another on another feature. When other 
   git checkout -b <-new branch name-> // to create new branch
   git branch -d <-branch name-> // to delete branch
   ```
-* 
+  > feature 1 ke andar chnages karna chahte he.
+  `git push origin feature1`
+* Ab ham featurea ko main ke sath merge kar de
+* Two types 1. using git -- compare two files `git diff <-branch name->` and then merge `git merge <-branch name->`
+* 2nd way is using Pull request. Create a PR. Bahoot sare kam kare aur sare developer ka code ek sath main branch me merge kar de.
+
+Now to update chnages from github to our local repo.
+Command: `git pull origin main`
+
+Resolving merge conflict -- same jagah ek branch ne change kia aur desre ne same usi jagah change kia. Ab git isko resolve nahi karega. Hum karenge.
+`git merge main`
+
+Vs will give us option 1. Accept change....line aayegi
+vs code ke sari ajeeb si line aayi he use hata de.
+Resolve in Merge Editor
+
+# Another topic: Undoing Chnages
+
+Case 1: Staged changes -- chnages add ho chuke he magar commit nahi hue he.
+* Now to reset the changes `git reset index.html` for one file only otherwise `git reset`
+
+Case 2: galti se koi change commit kar dia.
+`git reset HEAD~1`
+* Iska matlab head ko reset kar do 1 step
+* `git log` karke sare commit ko check kar sakte he. To check the history
+
+Case 3: commited changes for (multiple commits)
+* `git reset <-commit hash->`
+* `git reset --hard hash` vs code aur git dono mese change hat jayega.
+
+
+# Another topic: Fork -- is a rough copy of our project. And then pull request. Do all the changes in our github account and then merge it with actual project code.
