@@ -138,3 +138,24 @@ Case 3: commited changes for (multiple commits)
 
 # Another topic: Fork 
 * Fork is a rough copy of our project. And then pull request. Do all the changes in our github account and then merge it with actual project code.
+* 
+
+# error: src refspec main does not match any
+* Git requires at least one commit before pushing
+  > `git status`
+* Create initial commit
+  ```
+  git add .
+  git commit -m "Initial commit"
+  git push -u origin main
+  ```
+* Confirm on a correct branch
+  > `git branch --show-current`
+* If it's not main, rename it
+  > `git branch -M main`
+* Verify Remote Repository
+  > `git remote -v`
+* If it's missing or incorrect, add it again
+  > `git remote add origin https://github.com/StableMann46/DigitalBooks.git`
+* Push again
+  > `git push -u origin main`
