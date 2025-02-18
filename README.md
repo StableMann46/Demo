@@ -44,7 +44,7 @@
 * Jab tak hum ye nahi karte tab tak vs code hame M as modified files dikhayega
 
 
-## Topic 04: Add and Commit
+## Topic 04: Add and Commit and Push
 * add basically adds new or changed files in your working directory to the Git staging area
   > Command for add is  
   `git add <- file name ->`
@@ -56,6 +56,52 @@
   > Command to push is  
   `git push origin main`
 
-Video paused at 39:58
+
+## Topic 05: Init
+Github ke upar jo repo he voh origin he
+Projects local machine me banate he fir hum use github pe push karte he 
+Start it with git init
+
+* init is used to create a new git repo
+  ```
+  git init
+  git remote add origin <-link->
+  git remote -v
+  git branch
+  git branch -M main
+  git push origin main
+* Git repo or not -- If there is no hidden folder named git -- after doing ls -a
+* we do git init
+* now do ls -a. This is git repo now
+* check git status
+* git commit -m "initial files"
+* git status
+* All the chnages were made to our local
+* now make a repo in github to push our local
+  > Before doing push run this command
+  `git remote add origin <-link->`
+  create remote repo and name it origin
+* To verify remote `git remote -v`
+* To check branch `git branch`
+* Pehle master branch default hoti thi ab usk naam github ne badal ke ==main== kar dia he
+* `git branch -M main`
+* now we can do `git push origin main`
+* or `git push-u origin main` for all times in future. After setting this run only `git push` afterwards
+*  jab bhi hum naya project banaye git hub pe banaye fir local me clone kare voh aasan rehta he.
 
 
+Workflow --> when working with local git
+Github repo --> Clone --> Changes --. Add --> Commit --> Push 
+
+Git Branches
+Ek product me naye features dalne he to tab ye kam aata he
+One person is working on one feature and another on another feature. When other developers conmplete developing the feature. We finally merge all the changes.
+**branch Commands**
+  ```
+  git branch // to check branch
+  git branch -M main // to rename branch
+  git checkout <-branch name-> // to nevigate
+  git checkout -b <-new branch name-> // to create new branch
+  git branch -d <-branch name-> // to delete branch
+  ```
+* 
